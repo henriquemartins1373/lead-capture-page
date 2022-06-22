@@ -1,0 +1,25 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ccc;
+}
+
+.timer {
+  background-color: #383ea6;
+  height: 50px;
+  text-align: center;
+}
+.timer h1 {
+  margin: 0 auto;
+  padding: 7px;
+  color: white;
+}
+.timer .container {
+  display: grid;
+}
+
+/*# sourceMappingURL=styles.css.map */
