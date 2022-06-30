@@ -1,5 +1,8 @@
-$primary-color: #383ea6
-$secundary-color: #d90416
+$primary-color: #961227
+$black-4: #010712
+$black-3: #13171F
+$black-2: #1C1F26
+$black-1: #24262D
 
 *
     margin: 0px
@@ -7,19 +10,49 @@ $secundary-color: #d90416
     box-sizing: border-box
 
 body
-    background-color: #ccc
+    background-color: #fdfdfd
+    font-family: 'Montserrat', sans-serif
 
 .timer
-    background-color: $primary-color
-    height: 50px
+    display: flex
+    background-color: $black-4
+    height: 55px
+    justify-content: center
+    align-items: center
+    h1
+        color: white
+        font-weight: bold
+        
+
+h2
+    color: black
+    font-weight: bold
+    font-size: 40px
     text-align: center
+
+.container
+    border: 5px dotted blue
+    padding: 10px
+
+.row
+    border: 2px solid black
+    margin: 0 10px
+
+.col,
+.col-4,
+.col-8
+    border: 2px solid red
+    height: 100%
+    margin: 0%
+    
+.red
+    color: $primary-color
+
+p
+    font-size: 20px
+    font-weight: 600
+
     
 
-    h1
-        margin: 0 auto
-        padding: 7px
-        color: white
 
-    .container
-        display: grid
         
