@@ -21,8 +21,16 @@ body {
   font-weight: bold;
 }
 
-.timer-secundary {
+.aviso {
+  background: #961227;
+  color: white;
+  padding: 10px;
   margin-bottom: 15px;
+  text-align: center;
+}
+.aviso h1 {
+  font-weight: bold;
+  font-size: 2em;
 }
 
 h2 {
